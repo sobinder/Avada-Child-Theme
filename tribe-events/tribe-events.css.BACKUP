@@ -1,0 +1,51 @@
+#main {
+	padding-top: 2px !important;
+}
+
+.tribe-mobile #main {
+	padding-top: 2px !important;
+}
+
+#tribe-events-bar {
+	margin-bottom: 20px !important;
+}
+
+.fusion-events-before-title {
+	margin-bottom: 20px !important;
+}
+
+.tribe-events-single-section-title{
+	background-color: #1288c9;
+}
+
+.tribe-events-button {
+	font-size: 10px !important;
+	padding: 10px 15px !important;
+}
+
+.single-tribe_events #content {
+	width: calc(100% - 32% - 25px) !important;
+}
+
+.single-tribe_events #main .fusion-content-widget-area {
+	padding: 0% !important;
+}
+.single-tribe_events .tribe-events-event-meta dl {
+	padding: 0% 4% 0% 4% !important;
+}
+.fusion-events-single-title-content {
+	background-color: rgba( 18, 136, 201, 1.0) !important;
+}
+.tribe-events-gcal {
+	background-image: linear-gradient( to top, #ffffff, #ffffff ) !important;
+	border: 1px solid #b3b3b3 !important;
+	color: #888888 !important;
+}
+.tribe-events-ical  {
+	background-image: linear-gradient( to top, #ffffff, #ffffff ) !important;
+	border: 1px solid #b3b3b3 !important;
+	color: #888888 !important;
+}
+.tribe-events-cal-links {
+	text-align: center;
+}
