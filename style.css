@@ -161,6 +161,7 @@ Text Domain:  Avada
 	background:transparent;
 	color:#fff;
 	height:60px;
+	margin:0;
     font-weight: 600;
     letter-spacing: 0px;
     font-style: normal;
@@ -181,8 +182,19 @@ button.btn.btn-primary.nav_signup {
 .right_btn_v1  li{padding-right: 30px;}
  .custom-header-v1 .fusion-logo {
     margin-top: 15px !important;
-    margin-bottom: 10px !important;
+    margin-bottom: 0px !important;
 }
+ 
+ .fusion-page-title-bar {
+
+    border: 0px !important;
+}
+
+header.fusion-header-wrapper.fusion-is-sticky .right_btn_v1 {
+    max-width: 30%;
+	min-width:unset;
+} 
+ 
  
  
  @media only screen and (max-width:768px)
@@ -203,10 +215,10 @@ button.btn.btn-primary.nav_signup {
     height: auto !important;
     margin-top: 6px;
 }
-.right_btn_v1.fusion-header-has-flyout-menu .fusion-flyout-menu-icons .fusion-icon:before {
+.fusion-header-has-flyout-menu .fusion-flyout-menu-icons .fusion-icon:before {
     color: #ffffff !important;
 }
-.right_btn_v1.fusion-header-has-flyout-menu .fusion-flyout-menu-icons .fusion-toggle-icon-line {
+.fusion-header-has-flyout-menu .fusion-flyout-menu-icons .fusion-toggle-icon-line {
     height: 2px;
     width: 30px;
     background-color: #ffffff !important;
@@ -215,13 +227,9 @@ button.btn.btn-primary.nav_signup {
     color: #1288c9 !important;
 }
 
-
-.right_btn_v7 img {
+.right_btn_v1 img {
     max-width: 146px;
     margin-top: 5px;
 }
- 
 
- }
- 
- 
+}
